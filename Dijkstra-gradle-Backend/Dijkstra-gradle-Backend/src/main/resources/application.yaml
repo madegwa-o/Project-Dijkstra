@@ -11,3 +11,8 @@ spring:
   data:
     mongodb:
       uri: mongodb://localhost:27017/shopdb
+
+  graphql:
+    graphiql:
+      enabled: true
+    path: /graphql
