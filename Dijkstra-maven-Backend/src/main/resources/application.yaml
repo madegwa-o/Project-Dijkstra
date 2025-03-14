@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: Dijkstra-maven-Backend
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/mydb
+    username: dev
+    password: 1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/test
+      database: test

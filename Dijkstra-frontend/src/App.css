@@ -1,8 +1,12 @@
 #root {
-  max-width: 1280px;
+  width: 90%;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo {
@@ -35,6 +39,10 @@
 
 .card {
   padding: 2em;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  height: 80vh;
 }
 
 .read-the-docs {
